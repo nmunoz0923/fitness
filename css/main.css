@@ -3,6 +3,10 @@
   margin:0;
 }
 
+html {
+  background-color: black;
+}
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/fit1.jpg);
   height: 100vh;
@@ -40,16 +44,27 @@ h1 {
   color:grey;
   font-size: 50px;
   font-family: "verdana", "sans-serif"
-  margin-top:2px;
+  margin-top:20px;
+  margin-left: 700px;
+}
+
+h2 {
+  color:grey;
+  font-size: 30px;
+  font-family: "verdana", "sans-serif"
+  margin-top:20px;
+  margin-left: 350px;
+  width:1000px;
 }
 
 .signup {
   margin-top:30px;
-  margin-left: 540px;
+  margin-left: 800px;
+  padding-top:300px;
 }
 
 .button {
-  border:1px solid white;
+  border:1px solid grey;
   padding:10px 30px;
   color:purple;
   font-family: "verdana","sans-serif";
@@ -58,5 +73,5 @@ h1 {
 }
 
 .signup a:hover {
-  background-color:grey;
+  color:turquoise;
 }
