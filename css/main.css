@@ -5,18 +5,24 @@
 
 html {
   background-color: black;
+  height:200%;
 }
 
-header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/fit1.jpg);
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
+body {
+  background:url("../img/fitty1.jpg");
+  /* background-size: cover; */
+  width:100vw;
+  height:100vh;
+  background-attachment: fixed;
+  /* display: block; */
 }
 
 .nav-menu {
-  float:right;
+  float:left;
   list-style: none;
+  background-color: white;
+  width:100%;
+  height:50px;
 }
 
 .nav-menu li {
@@ -40,12 +46,9 @@ header {
   width:1200px;
 }
 
-h1 {
-  color:grey;
-  font-size: 50px;
-  font-family: "verdana", "sans-serif"
-  margin-top:20px;
-  margin-left: 700px;
+p {
+  color:white;
+  padding:55px 15px;
 }
 
 h2 {
